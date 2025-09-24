@@ -1,0 +1,27 @@
+@mixin flex($align, $justify, $direction){
+    display: flex;
+    align-items: $center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@import 'global';
+
+/*Desktop View*/
+@media screen and (max-width:1390px) and (min-width:1025px){
+
+}
+
+/*Tablet View*/
+@media screen and (max-width:1390px) and (min-width:1025px){
+    html{
+        font-size: 70%;
+    }
+}
+
+/*Mobile View*/
+@media screen and (max-width:1390px) and (min-width:1025px){
+    html{
+        font-size: 45%;
+    }
+}
